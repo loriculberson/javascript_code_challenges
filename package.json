@@ -1,0 +1,12 @@
+{
+  "name": "javascript-basics",
+  "jest": {
+    "verbose": true
+  },
+  "devDependencies": {
+    "jest": "^21.2.1"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
