@@ -8,6 +8,7 @@
 
 // for each version
 function calculateStats(numberList){
+  //create stats hash initializing property values to zero
   let stats = {
     maxValue: 0,
     minValue: 0,
@@ -34,6 +35,9 @@ function diff(a,b) {
   return a - b;
 }
 module.exports = { sum: sum, diff: diff, calculateStats: calculateStats }
+
+
+//reduce version
 //function calculateStats(numberList){
   //let stats = numberList.reduce(
     //function(runningStats, currentValue){
