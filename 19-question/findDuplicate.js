@@ -17,11 +17,11 @@ function createHashedValues(randomArray){
 }
 let hashOfRandomNumbers = createHashedValues(randomArray);
 
-function findDuplicate (hashOfRandomNumbers){ 
+function findDuplicate (hashOfRandomNumbers){
   //return the key whos value is > 1
-  var key; 
-  for (key in hashOfRandomNumbers){ 
-    value = hashOfRandomNumbers[key] > 1; 
+  var key;
+  for (key in hashOfRandomNumbers){
+    value = hashOfRandomNumbers[key] > 1;
     if (value){
       return key;
     }
