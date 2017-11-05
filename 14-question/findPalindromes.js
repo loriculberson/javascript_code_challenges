@@ -12,8 +12,8 @@ function twentyFivePalindromes(){
   //if true, return value to array
   let palNumbers = [];
   //let i = 109;
-  for (i = 109; palNumbers.length < 25; i++) {  // <= complete FAIL
   //while(palNumbers.length < 25) {
+  for (i = 109; palNumbers.length < 25; i++) {
     let iReversed = findReverseVal(i); ///returns an integer
     let sum = findSum(i, iReversed);
 
